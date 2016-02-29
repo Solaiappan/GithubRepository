@@ -1,0 +1,30 @@
+{
+  "name": "github-repos",
+  "version": "1.0.0",
+  "description": "The library which list out the github repos",
+  "author": "Solaiappan Rajendran <solai.it@gmail.com>",
+  "scripts": {
+    "test": "tests/index.sh",
+    "postinstall": "node_modules/.bin/bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Solaiappan/github-repos"
+  },
+  "bugs": {
+    "url": "https://github.com/Solaiappan/github-repos/issues"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "chai": "*",
+    "gulp": "*",
+    "istanbul": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
+  },
+  "license": "MIT"
+}

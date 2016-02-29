@@ -1,0 +1,10 @@
+.gridStyle {
+    border: 1px solid lightgray;
+    width: 600px;
+    height: 300px
+}
+
+.form-group input , .form-group label {
+    width: 200px;
+    display: inline-block;
+}
